@@ -1,0 +1,39 @@
+.box {
+  height: 100px;
+  background-color: #626262;
+  margin-bottom: 10px;
+}
+.m-r {
+  height: 250px;
+  margin-bottom: 20px;
+}
+.m-r-2 {
+  height: 250px;
+  margin-bottom: 20px;
+}
+.mr-3 {
+  height: 250px;
+  margin-bottom: 20px;
+}
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --ash: #b2beb5;
+}
+body {
+  background-color: var(--ash);
+}
+h2 {
+  border-bottom: 2px solid var(--white);
+}
+.container {
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 15px;
+}
+.btn {
+  color: var(--blue);
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  padding: 5px;
+}
